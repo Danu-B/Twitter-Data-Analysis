@@ -170,4 +170,3 @@ if __name__ == "__main__":
 
     # use all defined functions to generate a dataframe with the specified columns above
 
-    
