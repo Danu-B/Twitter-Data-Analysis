@@ -47,14 +47,14 @@ class TestTweetDfExtractor(unittest.TestCase):
                       'Fri Jun 18 17:56:10 +0000 2021', 'Fri Jun 18 17:56:20 +0000 2021']
 
         self.assertEqual(self.df.find_created_time(), created_at)
-"""
+
     def test_find_source(self):
         source = ['<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>', '<a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>',
                   '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>', '<a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>',
                   '<a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a>']
 
         self.assertEqual(self.df.find_source(), source)
-
+"""
     def test_find_screen_name(self):
         name = ['ketuesriche', 'Grid1949',
                 'LeeTomlinson8', 'RIPNY08', 'pash22']
