@@ -15,7 +15,7 @@ def DBConnect(dbName=None):
     Returns
     -------
     """
-    conn = mysql.connect(host='localhost', user='root', password="haira@0922787213",
+    conn = mysql.connect(host='localhost', user='root', password="root",
                          database=dbName, buffered=True)
     cur = conn.cursor()
     return conn, cur
